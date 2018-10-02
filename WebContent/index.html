@@ -17,7 +17,6 @@
 	.nav {
 		width: 50%;
 		height: 67px;
-		background-color: gray;
 		margin: 0 auto;
 	}
 	.top_logo {
@@ -29,14 +28,42 @@
 	.main_menu {
 		width: 55%;
 		height: 67px;
-		background-color: red;
 		float: left;
 	}
 	.sub_menu {
 		width: 25%;
 		height: 67px;
-		background-color: blue;
 		float: right;
+	}
+	.sub_menu li {
+		line-height: 67px;
+		font-size: 10px;
+		letter-spacing: -1px;
+		width: 16%;
+		color: gray;
+		opacity: 0.9;
+		float: right;
+	}
+	.sub_menu left {
+		line-height: 67px;
+		font-size: 10px;
+		letter-spacing: -1px;
+		width:16%;
+		color: gray;
+		float: left;
+	}
+	.main_menu > ul {
+		margin-left: 12%;
+	}
+	.main_menu li {
+		line-height: 67px;
+		margin: 0 auto;
+		font-size: 0.9rem;
+		letter-spacing: -1px;
+		font: bold;
+		width: 22%;
+		color: white;
+		float: left;
 	}
 	/* ====== header ====== 끝*/
 	
@@ -98,12 +125,23 @@
 			<div class="main_menu">
 				<ul>
 					<li>COMPANY</li>
-					<li>ARTIST</li>
+					<li>ARTISTS</li>
 					<li>PR CENTER</li>
 					<li>AUDITION</li>
 				</ul>
 			</div>
-			<div class="sub_menu"></div>
+			<div class="sub_menu">
+				<ul class="right">
+				<li>CN</li>
+				<li>JP</li>
+				<li>EN</li>
+				<li>KO</li>
+				</ul>
+				<ul class="left">
+				<li>JOIN</li>
+				<li>LOGIN</li>
+				</ul>
+			</div>
 		</nav>
 	</header>
 	<!-- header 끝 -->
